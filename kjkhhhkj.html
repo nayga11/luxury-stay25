@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Stay | Premium Hotel</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#" class="logo">LUXURY<span>STAY</span></a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#booking" class="nav-btn">Book Now</a>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">WELCOME TO LUXURY STAY</p>
+    <h1>Experience The Art<br>Of Luxury Living</h1>
+    <p>Discover exceptional comfort, timeless elegance and unforgettable moments.</p>
+    <a href="#rooms" class="gold-btn">Explore Rooms</a>
+  </div>
+</section>
+
+<section class="booking-section" id="booking">
+  <form id="bookingForm" class="booking-bar">
+    <div>
+      <label>Check In</label>
+      <input type="date" id="checkin" required>
+    </div>
+    <div>
+      <label>Check Out</label>
+      <input type="date" id="checkout" required>
+    </div>
+    <div>
+      <label>Guests</label>
+      <select id="guests">
+        <option value="1">1 Guest</option>
+        <option value="2" selected>2 Guests</option>
+        <option value="3">3 Guests</option>
+        <option value="4">4 Guests</option>
+      </select>
+    </div>
+    <div>
+      <label>Room Type</label>
+      <select id="room">
+        <option value="180">Deluxe Room</option>
+        <option value="280">Executive Suite</option>
+        <option value="450">Royal Villa</option>
+      </select>
+    </div>
+    <button type="submit" class="gold-btn">Check Price</button>
+  </form>
+  <p id="bookingResult" class="booking-result" aria-live="polite"></p>
+</section>
+
+<section class="about section" id="about">
+  <div class="about-image">
+    <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85" alt="Luxury hotel bedroom">
+  </div>
+  <div class="about-text">
+    <p class="eyebrow">ABOUT OUR HOTEL</p>
+    <h2>A Place Where<br>Luxury Meets Comfort</h2>
+    <p>Welcome to Luxury Stay, where every detail is designed to make your experience extraordinary. Enjoy elegant rooms, exceptional hospitality and peaceful surroundings.</p>
+    <a href="#rooms" class="text-link">Discover More →</a>
+  </div>
+</section>
+
+<section class="rooms section" id="rooms">
+  <div class="section-heading">
+    <p class="eyebrow">OUR ACCOMMODATION</p>
+    <h2>Rooms & Suites</h2>
+    <p>Find the perfect space for your next escape.</p>
+  </div>
+
+  <div class="room-grid">
+    <article class="room-card">
+      <img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=900&q=85" alt="Deluxe room">
+      <div class="room-info">
+        <h3>Deluxe Room</h3>
+        <p>Elegant comfort with a beautiful modern interior.</p>
+        <div class="room-bottom"><strong>$180 <small>/ night</small></strong><a href="#booking">Book Now →</a></div>
+      </div>
+    </article>
+
+    <article class="room-card">
+      <img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=85" alt="Executive suite">
+      <div class="room-info">
+        <h3>Executive Suite</h3>
+        <p>Extra space and premium comfort for your stay.</p>
+        <div class="room-bottom"><strong>$280 <small>/ night</small></strong><a href="#booking">Book Now →</a></div>
+      </div>
+    </article>
+
+    <article class="room-card">
+      <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=85" alt="Royal villa">
+      <div class="room-info">
+        <h3>Royal Villa</h3>
+        <p>A private luxury escape with breathtaking views.</p>
+        <div class="room-bottom"><strong>$450 <small>/ night</small></strong><a href="#booking">Book Now →</a></div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="feature-banner">
+  <div>
+    <p class="eyebrow">UNFORGETTABLE EXPERIENCES</p>
+    <h2>Relax. Reconnect. Enjoy.</h2>
+    <p>Discover the finer things in life at Luxury Stay.</p>
+  </div>
+</section>
+
+<section class="gallery section" id="gallery">
+  <div class="section-heading">
+    <p class="eyebrow">A GLIMPSE OF LUXURY</p>
+    <h2>Our Gallery</h2>
+  </div>
+  <div class="gallery-grid">
+    <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=85" alt="Hotel swimming pool">
+    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=85" alt="Hotel exterior">
+    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=900&q=85" alt="Luxury bedroom">
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85" alt="Fine dining restaurant">
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <p class="eyebrow">GET IN TOUCH</p>
+  <h2>Your Luxury Escape Awaits</h2>
+  <p>Have a question or need help with your stay?</p>
+  <a href="mailto:reservations@luxurystay.example" class="gold-btn">Contact Us</a>
+</section>
+
+<footer>
+  <a href="#" class="logo">LUXURY<span>STAY</span></a>
+  <p>© 2026 Luxury Stay Hotel. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
